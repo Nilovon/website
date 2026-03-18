@@ -1,0 +1,5 @@
+{
+  "permissions": {
+    "allow": ["Bash(vp dlx:*)", "Bash(vp check:*)", "Bash(vp lint:*)", "Bash(vp build:*)"]
+  }
+}

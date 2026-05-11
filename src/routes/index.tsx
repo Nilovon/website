@@ -64,9 +64,9 @@ function HomePage() {
 
         <div>
           <ProductCard
-            name="WaveDesk"
+            name="Nilovon Desk"
             tagline="Ticket system for German IT businesses"
-            description="A modern, AI-assisted ticket system built specifically for the IT-Systemhaus industry in Germany. WaveDesk combines intelligent ticket routing, analytics and reporting, with full DSGVO compliance. It ships with a TypeScript SDK and a clean REST API so you can integrate it into your existing workflows."
+            description="A modern, AI-assisted ticket system built specifically for the IT-Systemhaus industry in Germany. Nilovon Desk combines intelligent ticket routing, analytics and reporting, with full DSGVO compliance. It ships with a TypeScript SDK and a clean REST API so you can integrate it into your existing workflows."
             status="closed-alpha"
             highlights={[
               "AI-powered ticket routing and smart suggestions",
@@ -184,7 +184,7 @@ function HomePage() {
             </h2>
             <p className="m-0 text-[15px] leading-relaxed text-[var(--n-text-secondary)]">
               We believe the best developer tools are built transparently. BucketKit and hcloud-js
-              are fully open source today, and WaveDesk will follow once it leaves alpha. We publish
+              are fully open source today, and Nilovon Desk will follow once it leaves alpha. We publish
               our work, accept contributions, and build in public.
             </p>
           </div>

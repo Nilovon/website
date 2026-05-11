@@ -65,15 +65,17 @@ function HomePage() {
         <div>
           <ProductCard
             name="Nilovon Desk"
-            tagline="Ticket system for German IT businesses"
-            description="A modern, AI-assisted ticket system built specifically for the IT-Systemhaus industry in Germany. Nilovon Desk combines intelligent ticket routing, analytics and reporting, with full DSGVO compliance. It ships with a TypeScript SDK and a clean REST API so you can integrate it into your existing workflows."
-            status="closed-alpha"
+            tagline="Modular all-in-one workspace for IT service providers"
+            description="A modular platform that bundles tenant management, helpdesk and knowledge base into one lean workspace — built for IT-Systemhäuser and MSPs who are tired of juggling bloated suites and ten different logins. Connect Microsoft Entra tenants, run a clean ticket system with SLAs, and keep your docs in a Confluence-style wiki — all sharing the same identity, permissions and UI. Hosted in the EU (Frankfurt) with per-workspace schema isolation."
+            status="beta"
+            url="https://desk.nilovon.com/"
             highlights={[
-              "AI-powered ticket routing and smart suggestions",
-              "Built-in analytics dashboard with custom reports",
-              "DSGVO-konform by design — data stays in Germany",
-              "TypeScript SDK and documented REST API",
-              "Open source roadmap — closed alpha for now",
+              "Multi-tenant Microsoft 365 management via Entra OIDC",
+              "Helpdesk with SLA tracking, queues and customer portal",
+              "Wiki with spaces, tags, versioning and sub-100ms full-text search",
+              "Activate only the modules you need — pay per seat plus module flat",
+              "EU-hosted, DSGVO-konform, tenant-isolated by design",
+              "REST API and webhooks for your existing workflows",
             ]}
             tech={["TypeScript", "React", "Node.js", "PostgreSQL"]}
             style={{ animationDelay: "140ms" }}

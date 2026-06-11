@@ -64,11 +64,11 @@ function HomePage() {
 
         <div>
           <ProductCard
-            name="Nilovon Desk"
+            name="Tenvima"
             tagline="Modular all-in-one workspace for IT service providers"
             description="A modular platform that bundles tenant management, helpdesk and knowledge base into one lean workspace — built for IT-Systemhäuser and MSPs who are tired of juggling bloated suites and ten different logins. Connect Microsoft Entra tenants, run a clean ticket system with SLAs, and keep your docs in a Confluence-style wiki — all sharing the same identity, permissions and UI. Hosted in the EU (Frankfurt) with per-workspace schema isolation."
             status="beta"
-            url="https://desk.nilovon.com/"
+            url="https://tenvima.com/"
             highlights={[
               "Multi-tenant Microsoft 365 management via Entra OIDC",
               "Helpdesk with SLA tracking, queues and customer portal",
@@ -186,7 +186,7 @@ function HomePage() {
             </h2>
             <p className="m-0 text-[15px] leading-relaxed text-[var(--n-text-secondary)]">
               We believe the best developer tools are built transparently. BucketKit and hcloud-js
-              are fully open source today, and Nilovon Desk will follow once it leaves alpha. We publish
+              are fully open source today, and Tenvima will follow once it leaves alpha. We publish
               our work, accept contributions, and build in public.
             </p>
           </div>

@@ -64,24 +64,6 @@ function HomePage() {
 
         <div>
           <ProductCard
-            name="Tenvima"
-            tagline="Modular all-in-one workspace for IT service providers"
-            description="A modular platform that bundles tenant management, helpdesk and knowledge base into one lean workspace — built for IT-Systemhäuser and MSPs who are tired of juggling bloated suites and ten different logins. Connect Microsoft Entra tenants, run a clean ticket system with SLAs, and keep your docs in a Confluence-style wiki — all sharing the same identity, permissions and UI. Hosted in the EU (Frankfurt) with per-workspace schema isolation."
-            status="beta"
-            url="https://tenvima.com/"
-            highlights={[
-              "Multi-tenant Microsoft 365 management via Entra OIDC",
-              "Helpdesk with SLA tracking, queues and customer portal",
-              "Wiki with spaces, tags, versioning and sub-100ms full-text search",
-              "Activate only the modules you need — pay per seat plus module flat",
-              "EU-hosted, DSGVO-konform, tenant-isolated by design",
-              "REST API and webhooks for your existing workflows",
-            ]}
-            tech={["TypeScript", "React", "Node.js", "PostgreSQL"]}
-            style={{ animationDelay: "140ms" }}
-          />
-
-          <ProductCard
             name="BucketKit"
             tagline="Typesafe S3 uploads for Node.js and React"
             description="A developer-first SDK for handling S3-compatible file uploads. BucketKit gives you full type safety across your upload pipeline, from presigned URL generation on the server to progress tracking in React. No more guessing what your upload config looks like at runtime."
@@ -94,7 +76,7 @@ function HomePage() {
               "Lightweight — zero dependencies in the core package",
             ]}
             tech={["TypeScript", "React", "Node.js", "S3"]}
-            style={{ animationDelay: "200ms" }}
+            style={{ animationDelay: "140ms" }}
           />
 
           <ProductCard
@@ -109,7 +91,7 @@ function HomePage() {
               "Designed for infrastructure automation and CI/CD pipelines",
             ]}
             tech={["TypeScript", "Hetzner Cloud"]}
-            style={{ animationDelay: "260ms" }}
+            style={{ animationDelay: "200ms" }}
           />
         </div>
       </section>
@@ -186,8 +168,7 @@ function HomePage() {
             </h2>
             <p className="m-0 text-[15px] leading-relaxed text-[var(--n-text-secondary)]">
               We believe the best developer tools are built transparently. BucketKit and hcloud-js
-              are fully open source today, and Tenvima will follow once it leaves alpha. We publish
-              our work, accept contributions, and build in public.
+              are fully open source. We publish our work, accept contributions, and build in public.
             </p>
           </div>
           <a
